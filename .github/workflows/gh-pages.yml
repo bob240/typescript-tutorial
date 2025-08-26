@@ -28,7 +28,7 @@ jobs:
           deno install --unstable --allow-read --allow-write --allow-net --allow-run -n pagic https://deno.land/x/pagic@v1.6.3/mod.ts
           pagic build
 
-      - name: Release "turnip"
+      - name: Release "dist"
         uses: softprops/action-gh-release@v1
         with:
           body: 静态网页
